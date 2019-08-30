@@ -1,0 +1,250 @@
+#tex{
+  text-transform: lowercase;
+  text-align: center;
+}
+
+#tex:first-letter{
+  text-transform: uppercase;
+ }
+.redir{
+  background-color: transparent !important;
+  border: none;
+}
+#desc{
+  color: black !important;
+}
+#boutton-inscrire {
+    background-color: #9ad0e6 !important;
+}
+#bt{
+  border-radius: 25px !important;
+}
+#dat{
+  color: #5fbad1;
+  float: right;
+}
+#lign1{
+  white-space: pre-wrap !important; 
+   width: 350px !important; 
+   height: auto; 
+  }
+.marge{
+    white-space: pre-wrap !important; 
+     width: 200px !important; 
+     height: auto; 
+}
+#loginrow {
+    margin-top: 100px;
+    transition: transform .2s; 
+    border-style: groove;
+    border-width: 2px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+#email{
+  color:white !important;
+}
+#password{
+  color:white !important;
+}
+#name{
+  color:white !important;
+}
+#lname{
+  color:white !important;
+}
+#password2{
+  color:white !important;
+}
+#sidenav-main{
+  z-index: 1 !important;
+}
+#chart1{
+  background-color: white;
+}
+#register{
+  color:white !important;
+}
+#loginrow:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  }
+#loginp {
+    color:  rgb(51, 224, 255);
+    font-size: 25px;
+}
+#boutton-inscrire {
+    background-color: #f3671f !important;
+}
+
+#zetina2{
+  background-color: rgb(41, 124, 201) !important;
+}
+#zetina{
+  background-color: transparent !important;
+}
+#couleur{
+  color: rgb(129, 240, 255) !important;
+}
+li{
+  padding-left: 20px !important;
+}
+#fichier {
+  background-color: #5fbad1 !important;
+  height: 40px;
+  font-weight: bold;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  cursor: inherit;
+  display: block;
+}
+.sal{
+  color:rgb(92, 92, 92) !important;
+  font-size: 40px !important;
+}
+#visual{
+  border-radius: 20px;
+  border: none;
+}
+#ethan{
+  background-image: url('/img/ethan.jpg');
+  background-size: cover !important;
+  height: 800px;
+}
+#fond{
+    background-image: url('/img/fond1.png');
+    background-size: cover !important;
+    height: 950px;
+  }
+  #fond0{
+    background-image: url('/img/fond1.png');
+    background-size: cover !important;
+    height: 800px;
+  }
+#fond2{
+    background-image: url('/img/fond1.png');
+    background-size: cover !important;
+    height: auto;
+    padding-bottom: 93px;
+}
+#fond3{
+  background-image: url('/img/fond1.png');
+  background-size: cover !important;
+  height: auto;
+  padding-bottom: 331px;
+}
+#fond5{
+  background-color: #69cde6;
+}
+  .slogo{
+    margin-bottom: 5px;
+    
+  }
+  .logo{
+    z-index: 99;
+    position: absolute;
+    float: left;
+    margin-top: 20px;
+    margin-left:20px;
+    color: rgb(13, 195, 228);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .slogan{
+    z-index: 98;
+    position: absolute;
+    margin-top: 90px;
+    margin-left:20px;
+    float: left;
+    color: #71dcf7;
+    font-size: 20px;
+    font-style: italic;
+  }
+  #sign{
+    color: rgb(51, 224, 255);
+  }
+  
+  .reseau{
+    z-index: 100;
+    position: absolute;
+    width:5px;
+  }
+  
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  .more { 
+    position:relative; 
+  } 
+  .more-text { 
+    position:absolute; 
+    bottom:0.5em; 
+  } 
+  .moins, .hidetext, .more-text:focus .plus{ 
+    display:none; 
+  } 
+  .more-text:focus +.hidetext, .more-text:focus .moins{ 
+    display:block; 
+    cursor: pointer; 
+  } 
+  .more-text:focus { 
+    pointer-events:none; 
+  }
+  #point1{
+    height:3.5em; 
+    white-space: nowrap; 
+    overflow : hidden; 
+    text-overflow : ellipsis;
+  }
+  /* ul.menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.menu {
+    background-color: rgb(75, 46, 9) !important;
+    padding: 0;
+    opacity: 0.8;
+  }
+  ul.menu li a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+  }
+   */
+   #navbar{
+    background-color: rgb(75, 46, 9) !important;
+   }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  .active:hover {
+    background-color: rgb(130, 177, 0);
+  }
+  
+  
